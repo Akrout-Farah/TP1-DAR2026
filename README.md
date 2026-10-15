@@ -46,7 +46,11 @@ J'ai créé le projet Java `TP1-DAR2026` dans VS Code, puis initialisé un dép�
 
 ![Arborescence du projet dans VS Code](images/etape3-projet.png)
 
+### Initialisation du dépôt Git
+
 ![Dépôt Git initialisé](images/etape3-git.png)
+
+Le dépôt Git est initialisé dans le projet : `git status` indique la branche `main` et `git log` affiche l'historique des commits.
 
 ### Code du serveur
 
