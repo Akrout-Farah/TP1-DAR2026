@@ -35,7 +35,7 @@ J'ai lancé d'abord le serveur, puis le client.
 
 **Valeur positive (x = 4)**
 
-![Test positif](images/act2-test-positif.png)
+![Test positif](images/act2-test-positi.png)
 
 Le client reçoit 20.
 
