@@ -38,7 +38,9 @@ J'ai lancé d'abord le serveur, puis le client.
 ![Test positif](images/act2-test-positif.png)
 
 Le client reçoit 20.
+
 ![Test positif](images/coteserveur.png)
+
 Le serveur a bien reçu 4 et renvoyé 4 × 5.
 
 **Valeur négative (x = -9)**
@@ -61,14 +63,10 @@ Le client reçoit 0, car 0 × 5 = 0.
 
 ### Fonctionnement
 
-![code ](images/boucle.png)
-
 - Le client demande un entier en boucle.
 - Après chaque saisie, il envoie l'entier, reçoit le résultat et l'affiche.
 - La boucle s'arrête quand l'utilisateur saisit **0**.
 - Le client envoie ce 0 au serveur, qui sort alors de sa boucle. Les deux côtés ferment leurs sockets.
-
-xécution
 
 J'ai saisi successivement 7, -4, puis 0.
 
@@ -77,6 +75,7 @@ J'ai saisi successivement 7, -4, puis 0.
 ![Console du client](images/client.png)
 
 **Console du serveur**
+
 ![Console du serveur](images/serveur1.png)
 
 ![Console du serveur](images/serveur.png)
